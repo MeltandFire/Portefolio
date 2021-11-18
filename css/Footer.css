@@ -1,0 +1,70 @@
+
+/*FOOTER*/
+.corner{
+	display:flex;
+	float:right;
+}
+
+
+
+
+.footer{
+	background: #111; 
+	color: var(--clr-accent);
+	text-align: center;
+	padding: 2.5em 0;
+	font-size: var(--fs-h3);
+	
+}
+
+
+.footer a{ 
+color:inherit; /*cor herdada de footer*/
+text-decoration: none;
+
+} 
+
+
+.footer_link{	
+	font-weight: var(--fw-bold);
+	text-decoration: none;
+	color: var(--clr-accent);
+	
+}
+
+
+
+.footer_link:hover,
+.social_list_link:hover{
+	opacity: .7;
+}
+
+.footer_link:hover{
+	text-decoration: underline;
+	
+}
+
+
+.social_list{
+	list-style: none; /*sem as bullets*/
+	display: flex;
+	justify-content: center;
+	margin: 2em 0 0;
+	padding: 0;
+	
+	
+}
+
+.social_list_item{
+	margin: 0 .5em;
+	
+}
+
+.social_list_link{
+	padding: .5em;
+	
+}
+
+.social_list_img{
+	width: 45px;/*tamanho icons redes sociais em footer*/
+}

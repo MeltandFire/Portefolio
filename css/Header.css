@@ -1,0 +1,15 @@
+
+header{
+	display:flex; 
+	justify-content: space-between;
+	padding: 1em;
+	
+}
+		
+.logo{
+	max-width: 30px; /*modificar para controlar o tamanho do logo especialmente se for SVG*/
+}
+
+
+/*Tornar Desktop ou mobile?como quero?*/
+@media (min-width: 800px){}
